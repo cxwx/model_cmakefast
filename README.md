@@ -6,8 +6,8 @@
 <!-- By: chenxu <chenxu@mail.ustc.edu.cn>           +#+  +:+       +#+       -->
 <!--                                              +#+#+#+#+#+   +#+          -->
 <!-- Created: 2024/05/16 17:18:26 by chenxu            #+#    #+#            -->
-<!-- Updated: 2024/05/16 17:18:58 by chenxu           ###   ########.fr      -->
+<!-- Updated: 2024/05/16 18:34:43 by chenxu           ###   ########.fr      -->
 <!--                                                                         -->
 <!-- *********************************************************************** -->
 
-for fast configuration
+for fast configuration.

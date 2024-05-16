@@ -71,11 +71,11 @@ set(LINK_LIBS
     # ${YAML_CPP_LIBRARIES}
     spdlog::spdlog)
 
-# file(GLOB sources ${PROJECT_SOURCE_DIR}/*.cc) file(GLOB headers
-# ${PROJECT_SOURCE_DIR}/*.hh)
+file(GLOB sources ${PROJECT_SOURCE_DIR}/*.cc)
+file(GLOB headers ${PROJECT_SOURCE_DIR}/*.hh)
 
 # add_library(cxtest SHARED ${sources} ${headers}) target_link_libraries(cxtest
 # ${LINK_LIBS})
 
-add_executable(test p0_test.cpp)
+add_executable(test ${sources} ${headers} p0_test.cpp)
 target_link_libraries(test ${LINK_LIBS})
